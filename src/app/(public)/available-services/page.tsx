@@ -18,7 +18,7 @@ const AvailableServicePublic = async () => {
   console.log(data);
   return (
     <div>
-      {data.map((availableService: any) => {
+      {data?.map((availableService: any) => {
         return (
           <Link
             key={data.id}
